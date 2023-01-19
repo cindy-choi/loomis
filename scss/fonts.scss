@@ -1,0 +1,109 @@
+// @font-face {
+//   font-family: 'Noto Sans';
+//   font-display: swap;
+//   src: url('../src/assets/fonts/NotoSansKR-Light.eot'),
+//        url('../src/assets/fonts/NotoSansKR-Light.woff2') format('woff2'),
+//        url('../src/assets/fonts/NotoSansKR-Light.woff') format('woff'),
+//        url('../src/assets/fonts/NotoSansKR-Light.otf') format('embedded-opentype');
+//   font-weight: 300;
+// }
+// 
+// @font-face {
+//   font-family: 'Noto Sans';
+//   font-display: swap;
+//   src: url('../src/assets/fonts/NotoSansKR-Regular.eot'),
+//        url('../src/assets/fonts/NotoSansKR-Regular.woff2') format('woff2'),
+//        url('../src/assets/fonts/NotoSansKR-Regular.woff') format('woff'),
+//        url('../src/assets/fonts/NotoSansKR-Regular.otf') format('embedded-opentype');
+//   font-weight: 400;
+// }
+// 
+// @font-face {
+//   font-family: 'Noto Sans';
+//   font-display: swap;
+//   src: url('../src/assets/fonts/NotoSansKR-Medium.eot'),
+//        url('../src/assets/fonts/NotoSansKR-Medium.woff2') format('woff2'),
+//        url('../src/assets/fonts/NotoSansKR-Medium.woff') format('woff'),
+//        url('../src/assets/fonts/NotoSansKR-Medium.otf') format('embedded-opentype');
+//   font-weight: 500;
+// }
+// 
+// @font-face {
+//   font-family: 'Noto Sans';
+//   font-display: swap;
+//   src: url('../src/assets/fonts/NotoSansKR-Bold.eot'),
+//        url('../src/assets/fonts/NotoSansKR-Bold.woff2') format('woff2'),
+//        url('../src/assets/fonts/NotoSansKR-Bold.woff') format('woff'),
+//        url('../src/assets/fonts/NotoSansKR-Bold.otf') format('embedded-opentype');
+//   font-weight: 600;
+// }
+
+/* Basic Font */
+@font-face {
+  font-family: 'Noto Serif';
+  font-display: swap;
+  src: url('../src/assets/fonts/NotoSerifKR-ExtraLight.otf') format('embedded-opentype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Noto Serif';
+  font-display: swap;
+  src: url('../src/assets/fonts/NotoSerifKR-Light.otf') format('embedded-opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Noto Serif';
+  font-display: swap;
+  src: url('../src/assets/fonts/NotoSerifKR-Regular.otf') format('embedded-opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Noto Serif';
+  font-display: swap;
+  src: url('../src/assets/fonts/NotoSerifKR-Medium.otf') format('embedded-opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Noto Serif';
+  font-display: swap;
+  src: url('../src/assets/fonts/NotoSerifKR-SemiBold.otf') format('embedded-opentype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-display: swap;
+  src: url('../src/assets/fonts/NotoSerifKR-Bold.otf') format('embedded-opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Noto Serif';
+  font-display: swap;
+  src: url('../src/assets/fonts/NotoSerifKR-Black.otf') format('embedded-opentype');
+  font-weight: 900;
+}
+
+
+$font-family-base: 'Noto Serif', serif;
+
+body,
+pre, code, kbd, samp, div,
+input, button, select, optgroup, textarea {
+  font-family: $font-family-base !important;
+}
+
+/* Icon Fonts */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+       url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+       url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
